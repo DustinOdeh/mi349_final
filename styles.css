@@ -1,0 +1,268 @@
+html {
+   font-size: 16px;
+}
+a, article, body, div, footer, header, h1, h2, h3, nav, p, img, figure, figcaption {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+img {
+   max-width:100%;
+   height:auto;
+   width:auto;
+}
+
+img.msu {
+   margin-top:6em;
+}
+
+img.soccer {
+   margin-top:3em;
+}
+
+img.fcb {
+   margin-top:1.5em;
+}
+
+img.cj {
+   margin-top:2em;
+}
+
+header h1 {
+  color:orange;
+  background-color:blue;
+}
+
+body {
+   margin: 0 auto;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color:blue;
+}
+p {
+   font-size: 1.3em;
+   line-height: 1.6em;
+}
+a:link {
+   color: white;
+}
+a:visited {
+   color: white;
+}
+
+p.skipnavigation a {
+   position: absolute;
+   left: -10000px;
+}
+p.skipnavigation a:focus {
+   color: white;
+   background-color: #2793e6;
+   top: 0.4em;
+   left: auto;
+   right: 0.4em;
+   z-index: 2;
+}
+
+h1 {
+   text-align: center;
+   font-family: Bitter, "Times New Roman", Times, serif;
+   font-weight: 700;		
+   color: orange;
+   background-color: white;
+   font-size: 2.4em;
+}
+
+h1, nav {
+	z-index:-1;
+	top:0;
+}
+
+nav.sitenavigation {
+   color: orange;
+   text-align: center;
+   background-color:lightblue;
+}
+nav.sitenavigation p {
+   margin: 0.3em 0.5em;
+   display: inline-block;
+   color:orange;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:250%;
+}
+nav.sitenavigation a:link {
+   text-decoration: none;
+   color:orange;
+}
+
+nav.sitenavigation a {
+   color:orange;
+}
+
+nav.sitenavigation a:visited {
+   color: white;
+}
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+   color: #e87610;
+}
+
+a:hover, a:focus {
+   color:orange;
+}
+
+article {
+   margin: 0 auto;
+   padding: 1.4em;
+   background: #7eccec;
+   Background:url("");
+}
+
+article div {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 0 3% 1em;
+   background-color: black;
+   overflow:auto;
+}
+
+h2 {
+   padding: 0.4em 0.4em 0;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 250%;
+   color:orange;
+}
+
+h2:hover {
+   color:orange;
+}
+
+h3 {
+   margin-top: 1.4em;
+   font-size: 1.6em;
+   font-family: Bitter, "Times New Roman", Times, serif;
+   font-weight: 700;
+   clear: both;
+}
+
+article p {
+   padding-top: 1em;
+}
+article p.ok {
+   font-size: 1.7em;
+   color:orange;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:250%;
+}
+
+article h3.ok {
+   font-size: 1.7em;
+   color:orange;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:160%;
+   text-align:center;
+   padding-bottom:1.55em;
+}
+
+h3.ok {
+   font-size: 1.7em;
+   color:orange;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:250%;
+   text-align:center;
+}
+
+h6.ok {
+    font-size: 1.7em;
+   color:orange;
+   font-family:Arial, Helvetica, sans-serif;
+   text-align:center;
+}
+
+
+h5.ok {
+    font-size: 1.7em;
+   color:orange;
+   font-family:Arial, Helvetica, sans-serif;
+   text-align:center;
+}
+
+ol {
+   font-size: 1.7em;
+   color:orange;
+   font-family:Arial, Helvetica, sans-serif;
+   text-align:left;
+}
+
+ul {
+   font-size: 1.7em;
+   color:orange;
+   font-family:Arial, Helvetica, sans-serif;
+   text-align:left;	
+}
+
+th {
+   border:2px solid blue;
+   font-size:130%;
+   color:orange;
+   border-bottom:5px;
+}
+
+td {
+   border:2px solid blue;
+   text-align:left;
+   color:orange;
+}
+
+table {
+   text-align:center;
+   font-size: 100%;
+   color:orange;
+   font-family:Arial, Helvetica, sans-serif;   
+}
+
+article figure {
+   max-width:100%;
+   margin-left:2em;
+   float:right;
+}
+
+div {
+   background-color:black;
+}
+article figure.example {
+   margin-top:2em;
+}
+
+figure p { 
+   text-align:center;
+}
+
+figure {
+   background-color:black;
+}
+
+footer {
+   padding: 0.6em;
+   background-color:lightblue;
+   color:orange;
+   text-align: center;
+}
+
+footer p {
+   color:white;
+   text-align:center;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:250%;
+}
+
+footer p a {
+	color:white;
+}
+
+footer p a:hover, footer p a:focus {
+    color:orange;
+}
+
+.accent {
+   font-weight: bold;
+}
